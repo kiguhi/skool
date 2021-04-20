@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/addition"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/pink"
+        app:cardBackgroundColor="@color/pink"
+        app:cardCornerRadius="10dp">
+        <ImageButton
+            android:layout_marginTop="25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/addition"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ADDITION"
+            android:textColor="@color/colorAccent"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/subtraction"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/lime"
+        app:cardBackgroundColor="@color/lime"
+        app:cardCornerRadius="10dp">
+        <ImageButton
+            android:layout_marginTop="25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/subtraction"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SUBTRACTION"
+            android:layout_marginLeft="20dp"
+            android:textSize="40dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/division"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        app:cardBackgroundColor="@color/blue"
+        app:cardCornerRadius="10dp">
+        <ImageButton
+            android:layout_marginTop="25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="00dp"
+            android:background="@drawable/division"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DIVISION"
+            android:textSize="40dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
